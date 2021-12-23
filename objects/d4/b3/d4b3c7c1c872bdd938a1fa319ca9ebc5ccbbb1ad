@@ -1,0 +1,121 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = mc_cave_animation_2cfb5f2c6ab641c1
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 4.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = element
+  orientation_element = vanillabtn:400322
+  x = 0
+  action = movebutton
+  y = 32
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 4.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 0.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = element
+  orientation_element = vanillabtn:400382
+  x = 102
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=502382%
+  seconds = 4.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 0.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = joinserver
+  label = Rejoindre le serveur %serverplayercount:minecraft1091.omgserv.com:10001%
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 0.5
+  orientation_element = vanillabtn:400322
+  x = -1
+  width = 202
+  actionid = 3b4b1550-dfc8-41fc-9a52-a9edc89dc0e21640283295905
+  action = addbutton
+  y = -1
+  delayappearance = true
+  value = minecraft1091.omgserv.com:10001
+  delayappearanceeverytime = true
+  height = 20
+}
+
