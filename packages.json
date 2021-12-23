@@ -1,0 +1,12 @@
+{
+    "minimumVersion": 1,
+    "packages": [
+        {
+            "name": "World of Adventures Modpack",
+            "title": "World of Adventures",
+            "version": "2021-12-23-13-51-53",
+            "location": "world-of-adventures.json",
+            "priority": 1
+        }
+    ]
+}
