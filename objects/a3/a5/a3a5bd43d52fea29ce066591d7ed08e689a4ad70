@@ -1,0 +1,162 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = mc_cave_animation_2cfb5f2c6ab641c1
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 4.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = element
+  orientation_element = vanillabtn:400322
+  x = -5
+  action = movebutton
+  y = 35
+}
+
+customization {
+  identifier = %id=400382%
+  width = 96
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = element
+  orientation_element = vanillabtn:400382
+  x = 105
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=502382%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = element
+  orientation_element = 3b4b1550-dfc8-41fc-9a52-a9edc89dc0e21640283295905
+  x = -2
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=400298%
+  width = 202
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  seconds = 4.0
+  onlyfirsttime = true
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400298%
+  vr:showif:serveronline = false
+  vr:value:serveronline = minecraft1091.omgserv.com:10001
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  vr:value:serveronline = minecraft1091.omgserv.com:10001
+  delayappearanceseconds = 4.0
+  buttonaction = joinserver
+  label = Rejoindre le serveur %serverplayercount:minecraft1091.omgserv.com:10001%
+  loopbackgroundanimations = true
+  vr:showif:serveronline = true
+  fadein = true
+  fadeinspeed = 0.5
+  orientation_element = vanillabtn:400322
+  x = -3
+  width = 199
+  actionid = 3b4b1550-dfc8-41fc-9a52-a9edc89dc0e21640283295905
+  action = addbutton
+  y = 4
+  delayappearance = true
+  value = minecraft1091.omgserv.com:10001
+  delayappearanceeverytime = false
+  height = 20
+}
+
